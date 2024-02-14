@@ -325,6 +325,8 @@ MonoBehaviour:
     m_Flags: 0
   tilemap: {fileID: 931517250}
   allowedTiles: {fileID: 1972678413}
+  grassTile: {fileID: 0}
+  mountainTile: {fileID: 0}
 --- !u!1 &419043803
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +458,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -765,6 +767,7 @@ MonoBehaviour:
   gridSize: 100
   simulationSteps: 20
   pauseTime: 0.01
+  playerPrefab: {fileID: 130779374}
 --- !u!850595691 &1186101575
 LightingSettings:
   m_ObjectHideFlags: 0
